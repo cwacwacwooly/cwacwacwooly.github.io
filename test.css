@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(18, 32, 32);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+p {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+    font-size: 19px;
+}
+
+h1 {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+    text-shadow: 5px 5px 4px;
+}
+
+h6 {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+}
+
+#check {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+    font-size: 19px;
+    position: relative;
+    left: 605px;
+    top: 100px;
+}
+
+input {
+    position: relative;
+    left: 565px;
+    margin-top: 10px;
+    top: 100px;
+}
+
+#check2 {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+    font-size: 19px;
+    position: relative;
+    left: 615px;
+    top: 100px;
+}
+
+#div1 {
+    position: relative;
+    left: 635px;
+    top: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#div2 {
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#div3 {
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+#div4 {
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+}
+
+#div5 {
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 12.5px;
+    height: 12.5px;
+    background-color: orange;
+}
+
+#div6 {
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 6.25px;
+    height: 6.25px;
+    background-color: purple;
+}
+
+#cool {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+    font-size: 19px;
+    position: relative;
+    left: 655px;
+    top: 200px;
+}
+
+#cool2 {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+    font-size: 19px;
+    position: relative;
+    left: 440px;
+    top: 200px;
+}
+
+#button1 {
+    background-color: rgb(19, 118, 80);
+    color: rgb(18, 32, 32);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    width: 100px;
+    position: fixed;
+    top: 700px;
+}
+#button2 {
+    background-color: rgb(19, 118, 80);
+    color: rgb(18, 32, 32);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    width: 100px;
+    position: fixed;
+    left : 140px;
+    top: 700px;
+}
