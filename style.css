@@ -11,28 +11,26 @@ p {
     font-family: Comic Sans MS;
     font-size: 19px;
 }
-#buttons {
+
+.pagination {
+    text-align: center;
+}
+.pagination a {
+    color: rgb(19, 118, 80);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
     position: relative;
-    top: 370px;
-    width: 100%;
-    background-color: rgb(14, 23, 23);
-    margin-right: 0px;
-    margin-left: 0px;
+    top: 360px;
 }
-#button1 {
+.pagination a.active {
     background-color: rgb(19, 118, 80);
     color: rgb(18, 32, 32);
-    font-family: Comic Sans MS;
-    font-size: 20px;
-    width: 100px;
-    position: absolute;
+    border-radius: 20px;
 }
-#button2 {
-    background-color: rgb(19, 118, 80);
+.pagination a:hover:not(.active) {
+    background-color: rgb(9, 49, 34);
     color: rgb(18, 32, 32);
-    font-family: Comic Sans MS;
-    font-size: 20px;
-    width: 100px;
-    position: absolute;
-    left : 140px;
+    border-radius: 20px;
 }
